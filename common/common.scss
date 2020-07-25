@@ -1,3 +1,4 @@
+@import "common/foundation/variables";
 body {
   background-color: $secondary;
 //  font-family: 'Circular' !important;
@@ -59,13 +60,8 @@ body {
 }
 
 
-
-
-
-.list-controls {
-     display:none;
-   margin-top:0px;
-   margin-bottom:0px;
+table.topic-list {
+  display: flex;
 }
 
 .latest-topic-list-item .topic-poster {
@@ -88,4 +84,6 @@ body {
 .alert.alert-info {
   display:none;
 }
+
+
 
