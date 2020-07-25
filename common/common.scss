@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Circular';
+  src: url(#{$circular-pro}) format('ttf');
+}
+body {
+	background-color: $secondary;
+  font-family: 'Circular' !important;
+}
+
+.d-header {
+  box-shadow: none;
+  border-bottom: 1px solid $primary-low-mid;
+  height: 5em;
+
+  .d-icon {
+    color: $primary-low-mid;
+  }
+}
+
+#main-outlet {
+  //padding-top: 6.5em;
+}
+
+.navigation-container {
+  .select-kit.combo-box {
+    .select-kit-header {
+      border-radius: .9em;
+      background-color: $header-background;
+    }
+&.category-drop,
+    &.tag-drop {
+      .select-kit-body {
+        border-radius: .9em;
+        background-color: $header-background;
+  
+        .select-kit-collection {
+          background-color: $header-background;
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+        }
+      }
+    }
+
+  }
+}
+
+.nav-pills {
+	& > li a {
+      &.active {
+       color: $quaternary;
+       background-color: $tertiary;
+       border-bottom: 4px solid $quaternary;
+	  }
+  }
+}
+
+
+
+#discourse-modal {
+  &.login-modal,
+  &.create-account {
+    &:not(.hidden) {
+      &:after,
+      &:before {
+        content: "";
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+      }
+      &:before {
+        z-index: -2;
+        // change background image here
+        background-image: url(https://thehighly.co/wp-content/uploads/2020/04/Kapnobat_450.gif);
+      }
+
+      &:after {
+        z-index: -1;
+        // control overlay here
+        background-color: rgba(black, 0.5);
+      }
+    }
+  }
+}
+
+
+.login-required {
+     background-image: url(https://thehighly.co/wp-content/uploads/2020/04/Kapnobat_450.gif);
+}
+
+
+
+
+

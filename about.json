@@ -1,0 +1,22 @@
+{
+  "name": "The Highly Forum",
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+    "circular-pro": "assets/CircularPro-Book.ttf"
+  },
+  "color_schemes": {
+  	 "Default": {
+      "primary": "203243",
+      "secondary": "fdfcfa",
+      "tertiary": "D48D28",
+      "quaternary": "000000",
+      "header_background": "fdfcfa",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "FAF3E8",
+      "success": "009900",
+      "love": "F04C41"
+    }
+  }
+}
