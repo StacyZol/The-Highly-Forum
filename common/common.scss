@@ -1,3 +1,67 @@
+body {
+  background-color: $secondary;
+//  font-family: 'Circular' !important;
+}
+
+.d-header {
+  box-shadow: none;
+  border-bottom: 1px solid $primary-low-mid;
+  height: 5em;
+
+  .d-icon {
+    color: $primary-low-mid;
+  }
+}
+
+#main-outlet {
+  //padding-top: 6.5em;
+}
+
+.navigation-container {
+  .select-kit.combo-box {
+    .select-kit-header {
+      border-radius: .9em;
+      background-color: $header-background;
+      display:none;
+    }
+&.category-drop,
+    &.tag-drop {
+      .select-kit-body {
+        //border-radius: .9em;
+      //  background-color: $header-background;
+  
+        .select-kit-collection {
+          background-color: $header-background;
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+        }
+      }
+    }
+
+  }
+}
+
+.list-controls {
+     display:none;
+   margin-top:0px;
+   margin-bottom:0px;
+}
+.nav-pills {
+
+  & > li a {
+      &.active {
+      // color: $quaternary;
+       //background-color: $tertiary;
+       //border-bottom: 4px solid $quaternary;
+
+    }
+  }
+}
+
+
+
+
+
 .list-controls {
      display:none;
    margin-top:0px;
