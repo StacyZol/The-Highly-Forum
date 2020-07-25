@@ -26,12 +26,13 @@ body {
     .select-kit-header {
       border-radius: .9em;
       background-color: $header-background;
+      display:none;
     }
 &.category-drop,
     &.tag-drop {
       .select-kit-body {
-        border-radius: .9em;
-        background-color: $header-background;
+        //border-radius: .9em;
+      //  background-color: $header-background;
   
         .select-kit-collection {
           background-color: $header-background;
@@ -44,12 +45,19 @@ body {
   }
 }
 
+.list-controls {
+     display:none;
+   margin-top:0px;
+   margin-bottom:0px;
+}
 .nav-pills {
+
 	& > li a {
       &.active {
-       color: $quaternary;
-       background-color: $tertiary;
-       border-bottom: 4px solid $quaternary;
+      // color: $quaternary;
+       //background-color: $tertiary;
+       //border-bottom: 4px solid $quaternary;
+
 	  }
   }
 }
@@ -91,6 +99,37 @@ body {
 }
 
 
+@import "common/foundation/variables";
+
+.sidebar {
+  background: $secondary-high;
+  padding: 0 1em;
+  .card {
+  background: $secondary;
+  height: 200px;
+  width: 200px;
+  padding: .5em;
+  margin: .5em 0;
+  box-sizing: border-box;
+  }
+}
+
+table.topic-list {
+  display: flex;
+}
+
+.latest-topic-list-item .topic-poster {
+  display:none;
+}
+
+.category-list th {
+  //  padding: 12px 5px;
+   // color: #7499bd;
+   color: #444444;
+   // background-color: #d48d28;
+    border-bottom: 4px solid #000;
+    font-size: 22px;
+}
 
 
 
