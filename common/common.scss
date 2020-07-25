@@ -1,0 +1,27 @@
+.list-controls {
+     display:none;
+   margin-top:0px;
+   margin-bottom:0px;
+}
+
+.latest-topic-list-item .topic-poster {
+  display:none;
+}
+
+.category-list th, .table-heading {
+  //  padding: 12px 5px;
+   // color: #7499bd;
+   color: #444444;
+   // background-color: #d48d28;
+    border-bottom: 4px solid #000;
+    font-size: 22px;
+}
+
+.categories-list .category .category-description {
+  display:none;
+}
+
+.alert.alert-info {
+  display:none;
+}
+
