@@ -43,7 +43,7 @@ body {
 }
 
 .list-controls {
-     display:none;
+   display:none;
    margin-top:0px;
    margin-bottom:0px;
 }
@@ -61,7 +61,7 @@ body {
 
 
 table.topic-list {
-  display: flex;
+  //display: none;
 }
 
 .latest-topic-list-item .topic-poster {
@@ -84,6 +84,4 @@ table.topic-list {
 .alert.alert-info {
   display:none;
 }
-
-
 
