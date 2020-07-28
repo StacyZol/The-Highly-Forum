@@ -1,7 +1,7 @@
 @import "common/foundation/variables";
 body {
   background-color: $secondary;
-//  font-family: 'Circular' !important;
+  //  font-family: 'Circular' !important;
 }
 
 .d-header {
@@ -12,25 +12,33 @@ body {
   .d-icon {
     color: $primary-low-mid;
   }
+  #site-logo {
+    height: 3.667em;
+  }
 }
 
 #main-outlet {
   //padding-top: 6.5em;
 }
+.login-required {
+  width:100%;
+  text-align:center;
+  background-color: $tertiary;
+}
 
 .navigation-container {
   .select-kit.combo-box {
     .select-kit-header {
-      border-radius: .9em;
+      border-radius: 0.9em;
       background-color: $header-background;
-      display:none;
+      display: none;
     }
-&.category-drop,
+    &.category-drop,
     &.tag-drop {
       .select-kit-body {
         //border-radius: .9em;
-      //  background-color: $header-background;
-  
+        //  background-color: $header-background;
+
         .select-kit-collection {
           background-color: $header-background;
           border-top-left-radius: 0px;
@@ -38,50 +46,46 @@ body {
         }
       }
     }
-
   }
 }
 
 .list-controls {
-   display:none;
-   margin-top:0px;
-   margin-bottom:0px;
+  display: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .nav-pills {
-
   & > li a {
-      &.active {
+    &.active {
       // color: $quaternary;
-       //background-color: $tertiary;
-       //border-bottom: 4px solid $quaternary;
-
+      //background-color: $tertiary;
+      //border-bottom: 4px solid $quaternary;
     }
   }
 }
-
 
 table.topic-list {
   //display: none;
 }
 
 .latest-topic-list-item .topic-poster {
-  display:none;
+  display: none;
 }
 
-.category-list th, .table-heading {
+.category-list th,
+.table-heading {
   //  padding: 12px 5px;
-   // color: #7499bd;
-   color: #444444;
-   // background-color: #d48d28;
-    border-bottom: 4px solid #000;
-    font-size: 22px;
+  // color: #7499bd;
+  color: #444444;
+  // background-color: #d48d28;
+  border-bottom: 4px solid #000;
+  font-size: 22px;
 }
 
 .categories-list .category .category-description {
-  display:none;
+  display: none;
 }
 
 .alert.alert-info {
-  display:none;
+  display: none;
 }
-
