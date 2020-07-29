@@ -24,7 +24,8 @@ body {
 
 //Login Page
 .docked.static-login{
-    background-color: $tertiary-medium;
+  //  background-color: $tertiary-medium;
+    background-image: url($gradient-background);
     .d-header {
       z-index: -100;
     }
@@ -39,6 +40,12 @@ body {
 }
 
 .btn-primary.sign-up-button {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+}
+
+.btn-primary.login-button {
   display: block;
   margin: 10px auto;
   width: 300px;
@@ -111,4 +118,8 @@ table.topic-list {
 }
 
 
-
+.custom-background {
+  height:50px;
+  widht:100px;
+  background-image: url($gradient-background);
+}

@@ -3,7 +3,8 @@
   "about_url": null,
   "license_url": null,
   "assets": {
-    "circular-pro": "assets/CircularPro-Book.ttf"
+    "circular-pro": "assets/CircularPro-Book.ttf",
+    "gradient-background": "assets/TH_Gradients_GRADIENT-1.png"
   },
   "color_schemes": {
   	 "Default": {
