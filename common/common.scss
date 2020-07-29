@@ -20,11 +20,24 @@ body {
 #main-outlet {
   //padding-top: 6.5em;
 }
+
+
+//Login Page
+.docked.static-login{
+    background-color: $tertiary-medium;
+}
 .login-required {
   width:100%;
   text-align:center;
-  background-color: $tertiary;
+
 }
+.body-page {
+  max-width:100%
+}
+
+
+
+//
 
 .navigation-container {
   .select-kit.combo-box {
@@ -50,7 +63,7 @@ body {
 }
 
 .list-controls {
-  display: none;
+ // display: none;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -86,6 +99,5 @@ table.topic-list {
   display: none;
 }
 
-.alert.alert-info {
-  display: none;
-}
+
+
