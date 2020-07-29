@@ -34,7 +34,9 @@ body {
 .body-page {
   max-width:100%
 }
-
+.docked .d-header {
+  z-index: -100;
+}
 
 
 //
