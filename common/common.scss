@@ -25,6 +25,9 @@ body {
 //Login Page
 .docked.static-login{
     background-color: $tertiary-medium;
+    .d-header {
+      z-index: -100;
+    }
 }
 .login-required {
   width:100%;
@@ -33,9 +36,6 @@ body {
 }
 .body-page {
   max-width:100%
-}
-.docked .d-header {
-  z-index: -100;
 }
 
 
