@@ -1,9 +1,14 @@
 @import "common/foundation/variables";
+@font-face {
+  font-family: CircularPro;
+  src: url($circular-pro) format('otf');
+}
 html {
-    font-family: $circular-pro;
+    font-family: CircularPro;
   font-size: $base-font-size-smaller;
 }
 body {
+font-family: CircularPro;
   background-color: $secondary;
 
 }
