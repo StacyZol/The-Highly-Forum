@@ -1,7 +1,11 @@
 @import "common/foundation/variables";
+html {
+    font-family: $circular-pro;
+  font-size: $base-font-size-smaller;
+}
 body {
   background-color: $secondary;
-  //  font-family: 'Circular' !important;
+
 }
 
 .d-header {
