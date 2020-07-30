@@ -5,7 +5,7 @@
   "assets": {
     "circular-pro": "assets/CircularPro-Book.woff",
     "gradient-background": "assets/TH_Gradients_GRADIENT-1.png",
-    "logo-static": "/assets/TheHighly-logo.png"
+    "logo-static": "assets/TheHighly-logo.png"
   },
   "color_schemes": {
   	 "Default": {
