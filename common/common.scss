@@ -121,7 +121,7 @@ table.topic-list {
 }
 
 .category-list th,
-.table-heading {
+.table-heading, .latest-topic-list .table-heading {
   color: $primary;
   border-bottom: 4px solid #000;
   font-size: $font-up-1;
@@ -130,7 +130,14 @@ table.topic-list {
 .categories-list .category .category-description {
   display: none;
 }
-
+.latest-topic-list-item {
+padding: 8px; 
+border-bottom: 1px solid $pimary-low;
+  color: $quaternary;
+  .main-link {
+  max-width:100%
+  }
+}
 
 .custom-background {
   height:50px;
