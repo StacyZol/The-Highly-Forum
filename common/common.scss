@@ -1,14 +1,14 @@
 @import "common/foundation/variables";
 @font-face {
-  font-family: CircularPro;
-  src: url($circular-pro) format('otf');
+  font-family: Amazing;
+  src: url($circular-pro) format('woff');
 }
 html {
-    font-family: CircularPro;
+   
   font-size: $base-font-size-smaller;
 }
 body {
-font-family: CircularPro;
+font-family: Amazing;
   background-color: $secondary;
 
 }
@@ -129,6 +129,6 @@ table.topic-list {
 
 .custom-background {
   height:50px;
-  widht:100px;
+  width:100px;
   background-image: url($gradient-background);
 }
