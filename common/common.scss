@@ -1,6 +1,6 @@
 @import "common/foundation/variables";
 @font-face {
-  font-family: Amazing;
+  font-family: CircularPro;
   src: url($circular-pro) format('woff');
 }
 html {
@@ -8,7 +8,7 @@ html {
   font-size: $base-font-size-smaller;
 }
 body {
-font-family: Amazing;
+font-family: CircularPro;
   background-color: $secondary;
 
 }
@@ -107,19 +107,24 @@ font-family: Amazing;
 table.topic-list {
   //display: none;
 }
-
+.category-list .featured-topic a.last-posted-at, .category-list .featured-topic a.last-posted-at:visited,  {
+ color: $quaternary-low;
+}
+.latest-topic-list-item .main-link, .category-list .featured-topic .title {
+  color: $quaternary;
+}
 .latest-topic-list-item .topic-poster {
   display: none;
+}
+.category-list td {
+  color: $quaternary;
 }
 
 .category-list th,
 .table-heading {
-  //  padding: 12px 5px;
-  // color: #7499bd;
-  color: #444444;
-  // background-color: #d48d28;
+  color: $primary;
   border-bottom: 4px solid #000;
-  font-size: 22px;
+  font-size: $font-up-1;
 }
 
 .categories-list .category .category-description {
