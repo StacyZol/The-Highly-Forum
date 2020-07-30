@@ -133,9 +133,10 @@ table.topic-list {
 .latest-topic-list-item {
 padding: 8px; 
 border-bottom: 1px solid $pimary-low;
-  color: $quaternary;
+
   .main-link {
-  max-width:100%
+  max-width:100%;
+    color: $quaternary;
   }
 }
 
