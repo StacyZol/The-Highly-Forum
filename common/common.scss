@@ -83,12 +83,12 @@ body {
 
 
 //Latest Topics List 
-.latest-topic-list-item .main-link, .latest-topic-list-item,visited a.title:not(.badge-notification)  {
+.latest-topic-list-item .main-link, .latest-topic-list-item.visited a.title:not(.badge-notification)  {
     color: $quaternary;
 }
 .latest-topic-list-item {
     padding: 8px;
-    border-bottom: 1px solid $primary-low;
+    border-bottom: 1px solid $primary;
 }
 .latest-topic-list-item .main-link {
     max-width: 100%;
