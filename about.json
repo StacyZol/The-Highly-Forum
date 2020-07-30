@@ -9,16 +9,16 @@
   },
   "color_schemes": {
   	 "Default": {
-      "primary": "203243",
+      "primary": "000000",
       "secondary": "fdfcfa",
-      "tertiary": "D48D28",
-      "quaternary": "000000",
+      "tertiary": "203243",
+      "quaternary": "D48D28",
       "header_background": "fdfcfa",
       "header_primary": "333333",
       "highlight": "ffff4d",
-      "danger": "8100a2",
+      "danger": "F04C41",
       "success": "009900",
-      "love": "F04C41"
+      "love": "8100a2"
     }
   }
 }
